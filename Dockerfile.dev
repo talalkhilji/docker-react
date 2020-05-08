@@ -10,3 +10,4 @@ COPY ./ ./
 # Tell the image what todo what it starts
 # as a container
 CMD ["npm","run","start"]
+EXPOSE 80
