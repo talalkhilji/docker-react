@@ -13,5 +13,5 @@ RUN npm run build
 
 #use nigx and copy build folder
 FROM nginx
-EXPOSE 80
+EXPOSE 8080
 COPY --from=builder /app/build /usr/share/nginx/html
